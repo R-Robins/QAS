@@ -1,7 +1,7 @@
 # QAS
 Queueing Network Animation and Simulation System
 
-A program for use in the instruction of queueing theory and the evaluation of accurate results. 
+A program for use in the instruction of queueing theory. 
 The program contains five queueing systems with user-definable parameters. 
 
 Each system has numerical results calculated using event-driven simulation, which are displayed to the user.  
