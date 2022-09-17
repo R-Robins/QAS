@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  
+  <body>
+    <div id="run-time-main-block" class="run-time-main-block">
+      <!-- CANVAS AND CONTROL OPTIONS, LEFT SIDE -->
+      <div id="left-block">
+        <div id="navigationMenu" class="navigation-menu-update">Menu</div>
+   
+        <canvas id="window" class="run-time-canvas-block"></canvas> 
+        <div id="speedMenu" class="speed-menu"></div>
+      </div>
+
+      <!-- RESULTS, RIGHT SIDE-->
+      <div id="resultBlock" class="run-time-results-block">
+        <div id="titleOutput"> 
+          <table id="titleTable"> </table>
+        </div>
+          <div id="resultsOutput"> 
+          <div id="resultsTable"> </div>
+        </div>
+      </div>
+      <div id = "simulation-mode-menu" class="simulation-menu"></div>
+    </div>
+    
+
+    <!-- GRAPHING DIVISION -->
+    <div id="graphContainer" class="graph-container">
+        <div id="graphTitle" class="graph-title"></div>
+        <div id="tabContainer" class="tab-container"></div>
+        <div id="box">
+            <div id="chart"></div>
+            <div class="selection">
+              Selected: <span id="selected-count">0</span>
+            </div>
+        </div>
+        <div id="graphNavigationContainer" class="graph-navigation-container">
+            <button id = "graphReturnButton" class="graph-navigation-button"> Return </div>
+        </div>
+    </div>
+    
+    <!-- NEEDED SCRIPTS -->
+
+    <script src="../Graphing/apexcharts/apexcharts.min.js"></script>
+    <script src="../Graphing/graphingUtilities.js"></script>
+    <script src="../Graphing/histogram.js"></script>
+    <script src="../Scripts/runTime.js"></script>  
+    <script src="../Draw/config.js"></script>
+    <script src="../Draw/draw.js"></script> 
+    <script src="../Draw/drawable.js"></script> 
+    <script src="../Draw/visualModels.js"></script>
+    <script src="../Simulation/simulation.js"></script>
+    <script src="../Simulation/simulationModels.js"></script>
+    <script src="../Simulation/simulationOutput.js"></script>
+    <script src="../Drivers/driver.js"></script>
+    <script src="../Scripts/configurationReader.js"></script>
+  </body>
+
+</html>
