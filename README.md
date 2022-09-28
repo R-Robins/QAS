@@ -1,5 +1,5 @@
 # QAS
-Queueing Network Animation and Simulation System
+Queueing Network Animation and Simulation System  
 Documentation : https://github.com/R-Robins/QAS/blob/main/Richard%20John%20Robinson_917046226_Queueing%20Model%20Animation%20and%20Simulation%20System.pdf
 
 A program for use in the instruction of queueing theory. 
