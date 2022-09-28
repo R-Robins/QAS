@@ -1,5 +1,6 @@
 # QAS
 Queueing Network Animation and Simulation System
+Documentation : https://github.com/R-Robins/QAS/blob/main/Richard%20John%20Robinson_917046226_Queueing%20Model%20Animation%20and%20Simulation%20System.pdf
 
 A program for use in the instruction of queueing theory. 
 The program contains five queueing systems with user-definable parameters. 
@@ -13,4 +14,4 @@ QAS is written as a web application to be utilized online through a browser.
 Can be run through the index.html file.
 The program is assumed to be run on a home computer instead of a mobile device and scaling is not supported.
 
-[Richard John Robinson_917046226_Queueing Model Animation and Simulation System.pdf](https://github.com/R-Robins/QAS/files/9590616/Richard.John.Robinson_917046226_Queueing.Model.Animation.and.Simulation.System.pdf)
+
