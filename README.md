@@ -3,15 +3,10 @@ Queueing Network Animation and Simulation System
 Documentation : https://github.com/R-Robins/QAS/blob/main/Richard%20John%20Robinson_917046226_Queueing%20Model%20Animation%20and%20Simulation%20System.pdf
 
 A program for use in the instruction of queueing theory. 
-The program contains five queueing systems with user-definable parameters. 
+The program contains five queueing systems with user-definable parameters. Discrete event simulators were created for each system, which feed results into a visual representation of the system. 
 
-Each system has numerical results calculated using event-driven simulation, which are displayed to the user.  
-
-Jobs may be seen through the use of a visualization component. The speed of the visualizer may be increased, decreased, paused, or set to process one visual event at a time. The visualization can be forgone completely through a maximum speed mode to generate quick results. 
-
-QAS is written as a web application to be utilized online through a browser.
 
 Can be run through the index.html file.
-The program is assumed to be run on a home computer instead of a mobile device and scaling is not supported.
+The program is assumed to be run on a home computer instead of a mobile device and scaling is not supported. I wanted to make the program without external libraries and give myself a chance to better my core understanding of JavaScript, CSS, and HTML development. I have learned a lot through this project and it is indeed usable and will generate correct results, but if I were to remake it I would change quite a bit how the user interface was done.
 
 
